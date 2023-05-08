@@ -13,61 +13,128 @@
     <link rel="stylesheet" href="./styles/style.css">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-black">
-        <div class="container-fluid">
-          <a class="navbar-brand text-white" href="./home.html">Rayhaan Khan's Portfolio</a>
-          <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="d-lg-flex justify-content-end collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav fs-5 mb-2 me-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active text-white text-decoration-underline" aria-current="page" href="./home.html">Home</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle text-white"
-                  href="./about.html"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  About
-                </a>
-                <ul class="dropdown-menu text-decoration-underline">
-                  <li><a class="dropdown-item text-decoration-underline" href="./about.html">About</a></li>
-                  <li>
-                    <a class="dropdown-item" href="./about.html#education"
-                      >Education</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="./about.html#skills"
-                      >Skills</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="./about.html#project"
-                      >Projects</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="./about.html#testimonial"
-                      >Testimonial</a
-                    >
-                  </li>
-                </ul>
-              <li class="nav-item">
-                <a class="nav-link text-white text-decoration-underline" href="./contact.html">Contact</a>
-              </li>
-            </ul>
-          </div>
+    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-black p-3">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white" href="./home.html"
+          >Rayhaan Khan's Portfolio</a
+        >
+        <button
+        class="navbar-toggler bg-white p-2 my-3" style="width: 3rem;"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="d-lg-flex justify-content-end collapse navbar-collapse"
+          id="navbarTogglerDemo02"
+        >
+          <ul class="navbar-nav fs-5 mb-2 me-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-white text-decoration-underline"
+                aria-current="page"
+                href="./home.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-white text-decoration-underline"
+                href="./about.html"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                About
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="./about.html"
+                    >About</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./about.html#education"
+                    >Education</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./about.html#skills">Skills</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./about.html#project"
+                    >Projects</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./about.html#testimonial"
+                    >Testimonial</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link text-white text-decoration-underline"
+                href="./contact.html"
+                >Contact</a
+              >
+            </li>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
+
+    <div class="container mx-auto">
+      <h1>Contact Me!</h1>
+      <form
+  action="https://formspree.io/f/xyyaoapj"
+  method="POST"
+>
+<div class="mb-3 p-3">
+  <label for="exampleFormControlInput1" class="form-label">Email address:</label>
+  <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+</div>
+<div class="mb-3 p-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Please leave a message:</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  <button type="submit">Send</button>
+</div>
+    </div>
+
+    <script
+    type="module"
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+  ></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
       crossorigin="anonymous"
     ></script>
+
+    
   </body>
+  <footer>
+    <p class="info">
+      Cellphone Number: 069 120 7294 <br />
+      Gmail: rayhaankhan04@gmail.com
+    </p>
+    <div class="icons">
+     <a href="https://www.linkedin.com/in/rayhaan-khan-9ba792263/"><ion-icon name="logo-linkedin" style="width: 3rem; height: 3rem;color: white;"></ion-icon></ion-icon></a>
+     <a href="https://github.com/RayhaanK"><ion-icon name="logo-github" style="width: 3rem; height: 3rem; color: white;"></ion-icon></a>
+    </div>
+    <p class="copyright">Copyright &copy Rayhaan Khan</p>
+  </footer>
 </html>

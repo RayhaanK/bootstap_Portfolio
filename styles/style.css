@@ -1,3 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap');
+
 body {
+    background-color: #3F4E4F;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: white;
+    font-weight: 600;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    text-shadow: 2px 2px black;
+    text-decoration: underline;
+}
+
+.container-fluid  a:hover{
+    color: bisque !important;
+}
+
+.dropdown-menu {
     background-color: #1E1E1E;
+}
+
+.dropdown-menu a:hover {
+    background-color: #1E1E1E;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.btn {
+    color: white;
+    background-color: #3F4E4F;
+}
+
+.btn:hover {
+    background-color: white;
+    background-color: #1E1E1E;
+}
+
+p {
+    color: white;
+}
+
+footer {
+    margin-top: 100px;
+    border-top: 3px solid black;
+}
+
+.info {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.icons {
+    text-align: center;
+}
+
+.icons a ion-icon:hover {
+    background-color: black;
+}
+
+label {
+    color: white;
+}
+
+input {
+    height: 40px;
+}
+
+button {
+    margin-top: 30px;
+    height: 50px;
+    width: 300px;
+    background-color: #1E1E1E;
+    color: white;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+.copyright {
+    margin-left: 15px;
 }

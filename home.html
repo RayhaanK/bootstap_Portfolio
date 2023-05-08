@@ -10,23 +10,41 @@
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-black">
+    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-black p-3">
       <div class="container-fluid">
-        <a class="navbar-brand text-white" href="./home.html">Rayhaan Khan's Portfolio</a>
-        <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand text-white" href="./home.html"
+          >Rayhaan Khan's Portfolio</a
+        >
+        <button
+        class="navbar-toggler bg-white p-2 my-3" style="width: 3rem;"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="d-lg-flex justify-content-end collapse navbar-collapse" id="navbarTogglerDemo02">
+        <div
+          class="d-lg-flex justify-content-end collapse navbar-collapse"
+          id="navbarTogglerDemo02"
+        >
           <ul class="navbar-nav fs-5 mb-2 me-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active text-white text-decoration-underline" aria-current="page" href="./home.html">Home</a>
+              <a
+                class="nav-link active text-white text-decoration-underline"
+                aria-current="page"
+                href="./home.html"
+                >Home</a
+              >
             </li>
             <li class="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle text-white"
+                class="nav-link dropdown-toggle text-white text-decoration-underline"
                 href="./about.html"
                 role="button"
                 data-bs-toggle="dropdown"
@@ -34,17 +52,21 @@
               >
                 About
               </a>
-              <ul class="dropdown-menu text-decoration-underline">
-                <li><a class="dropdown-item text-decoration-underline" href="./about.html">About</a></li>
+              <ul class="dropdown-menu">
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="./about.html"
+                    >About</a
+                  >
+                </li>
                 <li>
                   <a class="dropdown-item" href="./about.html#education"
                     >Education</a
                   >
                 </li>
                 <li>
-                  <a class="dropdown-item" href="./about.html#skills"
-                    >Skills</a
-                  >
+                  <a class="dropdown-item" href="./about.html#skills">Skills</a>
                 </li>
                 <li>
                   <a class="dropdown-item" href="./about.html#project"
@@ -57,17 +79,64 @@
                   >
                 </li>
               </ul>
+            </li>
+
             <li class="nav-item">
-              <a class="nav-link text-white text-decoration-underline" href="./contact.html">Contact</a>
+              <a
+                class="nav-link text-white text-decoration-underline"
+                href="./contact.html"
+                >Contact</a
+              >
             </li>
           </ul>
         </div>
       </div>
     </nav>
+
+    <div class="container">
+      <h1>Welcome To My Portfolio! :)</h1>
+      <div class="card mx-auto my-5 text-bg-dark mb-3" style="width: 18rem">
+        <img
+          src="https://i.postimg.cc/qR9dF6v2/C12-Rayhaan-Khan-1.jpg"
+          loading="lazy"
+          class="card-img-top"
+          alt="portPic"
+        />
+        <div class="card-body">
+          <h5 class="card-title">My Name Is Rayhaan Khan</h5>
+          <p class="card-text">Aspiring Web Developer</p>
+          <a
+            href="./about.html"
+            class="btn"
+            >Find out more about me!</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <script
+    type="module"
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+  ></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
       crossorigin="anonymous"
     ></script>
   </body>
+  <footer>
+    <p class="info">
+      Cellphone Number: 069 120 7294 <br />
+      Gmail: rayhaankhan04@gmail.com
+    </p>
+    <div class="icons">
+     <a href="https://www.linkedin.com/in/rayhaan-khan-9ba792263/"><ion-icon name="logo-linkedin" style="width: 3rem; height: 3rem;color: white;"></ion-icon></ion-icon></a>
+     <a href="https://github.com/RayhaanK"><ion-icon name="logo-github" style="width: 3rem; height: 3rem; color: white;"></ion-icon></a>
+    </div>
+    <p class="copyright">Copyright &copy Rayhaan Khan</p>
+  </footer>
 </html>
