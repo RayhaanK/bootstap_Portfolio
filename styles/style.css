@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
 
 body {
-    background-color: #3F4E4F;
+    /* background-color: #3F4E4F; */
+    background: rgb(150,150,150);
+    background: radial-gradient(circle, rgba(150,150,150,1) 16%, rgba(30,30,30,1) 74%);
     font-family: 'Montserrat', sans-serif;   
 }
 
@@ -19,7 +21,7 @@ h1 {
 }
 
 .container-fluid  a:hover{
-    color: bisque !important;
+    color: #8c5246 !important;
 }
 
 .dropdown-menu {
@@ -49,27 +51,28 @@ p {
     color: white;
 }
 
-.card-img-top {
-    /* height: 300px;
-    width: 300px; */
-}
 
 footer {
     margin-top: 100px;
     border-top: 3px solid black;
+    background-color: black; 
+    height: 180px;
 }
+
 
 .info {
     margin-top: 20px;
     text-align: center;
+    color: white !important;
 }
+
 
 .icons {
     text-align: center;
 }
 
 .icons a ion-icon:hover {
-    background-color: black;
+    color: #8c5246 !important;
 }
 
 label {
@@ -93,9 +96,153 @@ button:hover {
     color: black;
 }
 
+.card-body1 {
+    margin-left: 200px;
+    width: 300px;
+    height: 150px;
+    padding: 10px;
+}
+.card-body2 {
+    width: 300px;
+    height: 150px;
+    padding: 10px;
+}
+
+.rylandsLogo {
+    margin-left: 200px;
+}
+
+.lifechoicesLogo {
+    width: 400px;
+}
+
+.progress-bar1 {
+    background-color: #e54c21ff;
+}
+
+.progress-bar2 {
+    background-color: #264de4;
+}
+
+.progress-bar3 {
+    background-color: #8712fb;
+}
+
 .copyright {
     margin-left: 15px;
 }
+
+
+
+@media screen and (max-width:1200px) {
+    .rylandsLogo {
+        margin-left: 90px;
+    }
+    
+    .lifechoicesLogo {
+        margin-left: 80px;
+    }
+
+    .card-body2 {
+        margin-left: 80px;
+        
+    }
+    
+     .card-body1 {
+        margin-left: 90px;
+
+        width: 250px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+
+
+.lifechoicesLogo {
+    width: 300px;
+}
+
+.card-body2 {
+    width: 300px !important;
+    padding: 10px !important;
+   }
+
+}
+
+@media screen and (max-width:000px) {
+    .rylandsLogo {
+        margin-left: 100px;
+    }
+    
+     .lifechoicesLogo {
+        margin-left: 80px;
+     }
+
+     .card-body2 {
+        margin-left: 80px;
+     }
+
+     .card-body1 {
+        margin-left: 100px;
+     }
+
+}
+@media screen and (max-width:800px) {
+    .rylandsLogo {
+        margin-left: 100px;
+    }
+    
+     .lifechoicesLogo {
+        margin-left: 80px;
+     }
+
+     .card-body2 {
+        margin-left: 80px;
+     }
+
+     .card-body1 {
+        margin-left: 100px;
+     }
+
+}
+
+@media screen and (max-width:600px) {
+    .rylandsLogo {
+        margin-left: 100px;
+     }
+
+     .lifechoicesLogo {
+        margin-left: 70px;
+     }
+
+     .card-body2 {
+        margin-left: 70px;
+     }
+
+     .card-body1 {
+        margin-left: 100px;
+     }
+
+}
+@media screen and (max-width:500px) {
+    .rylandsLogo {
+        margin-left: 50px;
+     }
+
+     .lifechoicesLogo {
+        margin-left: 50px;
+     }
+
+     .card-body2 {
+        margin-left: 50px;
+     }
+
+     .card-body1 {
+        margin-left: 50px;
+     }
+
+}
+    
 
 @media screen and (max-width:400px) {
     Button{
@@ -104,5 +251,22 @@ button:hover {
 
     .lifechoicesLogo {
         width: 250px !important;
+        margin: 0;
     }
+
+    .rylandsLogo {
+        margin-left: 0px;
+     }
+
+   .card-body1 {
+    margin: 0;
+    width: 250px !important;
+    padding: 10px !important;
+   }
+
+   .card-body2 {
+    margin: 0;
+    width: 250px !important;
+    padding: 10px !important;
+   }
 }
