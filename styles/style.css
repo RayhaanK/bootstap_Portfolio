@@ -23,8 +23,13 @@ h1 {
     text-decoration: underline;
 }
 
+.container-fluid a {
+    color: #f0f8ff !important;
+
+}
+
 .container-fluid  a:hover{
-    color: #99A98F !important;
+    color: white !important;
 }
 
 .dropdown-menu {
@@ -54,6 +59,11 @@ p {
     color: white;
 }
 
+.atitle {
+    color: white;
+    text-shadow: 1px 1px black;
+    font-weight: bold;
+}
 
 .ctitle {
     color: black;
