@@ -4,7 +4,10 @@ body {
     /* background-color: #3F4E4F; */
     background: rgb(150,150,150);
     background: radial-gradient(circle, rgba(150,150,150,1) 16%, rgba(30,30,30,1) 74%);
-    font-family: 'Montserrat', sans-serif;   
+    font-family: 'Montserrat', sans-serif; 
+    min-height: 100vh;  
+    display: flex;
+    flex-direction: column;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -92,7 +95,7 @@ input {
 .formButton {
     margin-top: 30px;
     height: 50px;
-    width: 300px;
+    width: 250px;
     background-color: #1E1E1E;
     color: white;
 }
