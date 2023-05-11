@@ -52,6 +52,12 @@ p {
 }
 
 
+.sonic {
+    color: black;
+    text-shadow: 1px 1px white;
+    font-weight: bold;
+}
+
 footer {
     margin-top: 100px;
     border-top: 3px solid black;
