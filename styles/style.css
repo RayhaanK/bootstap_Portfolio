@@ -75,7 +75,7 @@ p {
 .btitle {
     color: white;
     text-shadow: 3px 3px black;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .ctitle {
