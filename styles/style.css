@@ -52,14 +52,14 @@ p {
 }
 
 
-.sonic {
+.ctitle {
     color: black;
     text-shadow: 1px 1px white;
     font-weight: bold;
 }
 
 footer {
-    margin-top: 100px;
+    margin-top: auto;
     border-top: 3px solid black;
     background-color: black; 
     height: 180px;
@@ -137,4 +137,14 @@ input {
 
 .copyright {
     margin-left: 15px;
+}
+
+@media screen and (max-width: 600px) {
+    .carousel-caption, h5, button {
+        font-size: 1rem;
+    }
+   
+    .carousel-caption button {
+        padding: 0.5px;
+    }
 }
