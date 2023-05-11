@@ -92,8 +92,7 @@ input {
 }
 
 .formButton:hover {
-    background-color: white;
-    color: black;
+    background-color: #323232;
 }
 
 .card-body1 {
@@ -112,13 +111,11 @@ input {
     background-color:  #1E1E1E;
     color: white;
 }
-/* .rylandsLogo {
-    margin-left: 200px;
-} */
 
-/* .lifechoicesLogo {
-    width: 400px;
-} */
+.btn2:hover {
+    background-color: #323232;
+}
+
 
 .progress-bar1 {
     background-color: #e54c21ff;
@@ -135,142 +132,3 @@ input {
 .copyright {
     margin-left: 15px;
 }
-
-
-
-/* @media screen and (max-width:1200px) {
-    .rylandsLogo {
-        margin-left: 90px;
-    }
-    
-    .lifechoicesLogo {
-        margin-left: 80px;
-    }
-
-    .card-body2 {
-        margin-left: 80px;
-        
-    }
-    
-     .card-body1 {
-        margin-left: 90px;
-
-        width: 250px;
-    }
-}
-
-@media screen and (max-width:1000px) {
-
-
-.lifechoicesLogo {
-    width: 300px;
-}
-
-.card-body2 {
-    width: 300px !important;
-    padding: 10px !important;
-   }
-
-}
-
-@media screen and (max-width:000px) {
-    .rylandsLogo {
-        margin-left: 100px;
-    }
-    
-     .lifechoicesLogo {
-        margin-left: 80px;
-     }
-
-     .card-body2 {
-        margin-left: 80px;
-     }
-
-     .card-body1 {
-        margin-left: 100px;
-     }
-
-}
-@media screen and (max-width:800px) {
-    .rylandsLogo {
-        margin-left: 100px;
-    }
-    
-     .lifechoicesLogo {
-        margin-left: 80px;
-     }
-
-     .card-body2 {
-        margin-left: 80px;
-     }
-
-     .card-body1 {
-        margin-left: 100px;
-     }
-
-}
-
-@media screen and (max-width:600px) {
-    .rylandsLogo {
-        margin-left: 100px;
-     }
-
-     .lifechoicesLogo {
-        margin-left: 70px;
-     }
-
-     .card-body2 {
-        margin-left: 70px;
-     }
-
-     .card-body1 {
-        margin-left: 100px;
-     }
-
-}
-@media screen and (max-width:500px) {
-    .rylandsLogo {
-        margin-left: 50px;
-     }
-
-     .lifechoicesLogo {
-        margin-left: 50px;
-     }
-
-     .card-body2 {
-        margin-left: 50px;
-     }
-
-     .card-body1 {
-        margin-left: 50px;
-     }
-
-}
-    
-
-@media screen and (max-width:400px) {
-    Button{
-        width: 200px;
-    }
-
-    .lifechoicesLogo {
-        width: 250px !important;
-        margin: 0;
-    }
-
-    .rylandsLogo {
-        margin-left: 0px;
-     }
-
-   .card-body1 {
-    margin: 0;
-    width: 250px !important;
-    padding: 10px !important;
-   }
-
-   .card-body2 {
-    margin: 0;
-    width: 250px !important;
-    padding: 10px !important;
-   }
-} */
