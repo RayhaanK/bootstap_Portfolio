@@ -58,7 +58,7 @@ h1 {
 }
 
 .btn:hover {
-  background-color: white;
+  color: white;
   background-color: #1e1e1e;
 }
 
@@ -77,6 +77,12 @@ p {
 }
 
 .ctitle {
+  color: black;
+  text-shadow: 1px 1px white;
+  font-weight: bold;
+}
+
+.stitle {
   color: black;
   text-shadow: 1px 1px white;
   font-weight: bold;
@@ -169,5 +175,10 @@ input {
 
   .carousel-caption button {
     padding: 0.5px;
+  }
+
+  .stitle {
+    color: white;
+    font-weight: bold;
   }
 }
